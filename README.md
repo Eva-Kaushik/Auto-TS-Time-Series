@@ -27,7 +27,7 @@ The AutoTS Forecasting project is a Python implementation leveraging the `autots
 
     ```python
     # Example: Loading data from a CSV file
-    df_all = pd.read_csv(r"C:\\Users\\rmehrotra\\Downloads\\temp_data.csv")
+    df_all = pd.read_csv(r"Path of temp data.csv")
     df_all['Date'] = pd.to_datetime(df_all['Date'], format="%d-%m-%Y")
     ```
 
